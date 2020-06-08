@@ -19,12 +19,11 @@ const items = [
 
 // console.log(itemsFiltered)
 
-const itemsNames = items.map((title, rp)=> {
-    return title.name rp.price
+const itemsNames = items.map((title)=> {
+    return title.price
 })
 
 console.log(itemsNames)
-
 
 
 
