@@ -1,30 +1,31 @@
 //React Function with Multiple Components:
 
-function Button(){
-    const [counter, setCounter] = useState(0);
-    const handleClick = () => setCounter(counter+1);
-    return (
-      <button onClick={handleClick}>
-        {counter}
-      </button>
-      );
-  }
+// function Button(){
+//     const [counter, setCounter] = useState(0);
+//     const handleClick = () => setCounter(counter+1);
+//     return (
+//       <button onClick={handleClick}>
+//         {counter}
+//       </button>
+//       );
+//   }
   
-  function Display(){
-    return (
-    <div>....</div>
-    );
-  }
+//   function Display(){
+//     return (
+//     <div>....</div>
+//     );
+//   }
   
-  function Greeting(){
-    return (
-      <div>'Hello There'</div>
-    );
-  }
+//   function Greeting(){
+//     return (
+//       <div>'Hello There'</div>
+//     );
+//   }
   
-  ReactDOM.render(
-    [<Button />, <Display />, < Greeting />],
-    document.getElementById('mountNode'),
+//   ReactDOM.render(
+//     [<Button />, <Display />, < Greeting />],
+//     document.getElementById('mountNode'),
+
 
 
 
@@ -117,4 +118,4 @@ function Button(){
 // ReactDOM.render(
 // <FiguredOut />,
 //   document.getElementById('mountNode'),
-// );
+// );//

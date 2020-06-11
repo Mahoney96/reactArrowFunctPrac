@@ -1,7 +1,8 @@
 import React from 'react';
 import itemsFiltered from './arrayReactPrac';
+import Button from './TuesReact';
 // import Person from './script';//
-
+import 
 
 
 function App (){
